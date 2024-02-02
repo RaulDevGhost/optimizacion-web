@@ -12,7 +12,8 @@ const config = {
     filename: 'bundle.js',
   },
   devServer: {
-    contentBase: '.',
+    static: '.',
+    port: 9000
   },
 }
 
